@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlayerEntity" representedClassName="PlayerEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="batAvg" optional="YES" attributeType="String"/>
+        <attribute name="batStyle" optional="YES" attributeType="String"/>
+        <attribute name="bowlAvg" optional="YES" attributeType="String"/>
+        <attribute name="bowlStyle" optional="YES" attributeType="String"/>
+        <attribute name="ecoRate" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isCaptain" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isWicketKeeper" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="position" optional="YES" attributeType="String"/>
+        <attribute name="runs" optional="YES" attributeType="String"/>
+        <attribute name="strikeRate" optional="YES" attributeType="String"/>
+        <attribute name="wickets" optional="YES" attributeType="String"/>
+        <relationship name="team" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TeamEntity" inverseName="players" inverseEntity="TeamEntity"/>
+    </entity>
+    <entity name="TeamEntity" representedClassName="TeamEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="fullName" optional="YES" attributeType="String"/>
+        <attribute name="shortName" optional="YES" attributeType="String"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlayerEntity" inverseName="team" inverseEntity="PlayerEntity"/>
+    </entity>
+    <elements>
+        <element name="PlayerEntity" positionX="-63" positionY="-18" width="128" height="253"/>
+        <element name="TeamEntity" positionX="-54" positionY="63" width="128" height="88"/>
+    </elements>
+</model>

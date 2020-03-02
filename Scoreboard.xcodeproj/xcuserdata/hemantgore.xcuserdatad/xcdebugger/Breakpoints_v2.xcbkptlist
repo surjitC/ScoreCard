@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2A0654CF-BEFE-44F4-9E4B-CCE812F45BA2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABE0F5B6-3050-4C66-928A-5E21F7C19B0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/View Model/MatchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "initializeTeams()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96D645A8-8081-4704-AB4A-34C10CE6B2F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/Core Data/CoreDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "create(teamViewModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96D645A8-8081-4704-AB4A-34C10CE6B2F2 - 9e6fea620f4a045e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Scoreboard.CoreDataManager.create(teamViewModel: Scoreboard.TeamViewModel) -&gt; ()"
+                  moduleName = "Scoreboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hemantgore/Desktop/Surjit/Scoreboard/Scoreboard/Core%20Data/CoreDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1140">
+               </Location>
+               <Location
+                  uuid = "96D645A8-8081-4704-AB4A-34C10CE6B2F2 - ead925e5a463f193"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Scoreboard.Player) -&gt; () in Scoreboard.CoreDataManager.create(teamViewModel: Scoreboard.TeamViewModel) -&gt; ()"
+                  moduleName = "Scoreboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hemantgore/Desktop/Surjit/Scoreboard/Scoreboard/Core%20Data/CoreDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4A61E01-7CA7-4105-8A89-8B45DEE837F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/Core Data/CoreDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "create(teamViewModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "937529F3-7F97-406C-8FB9-72FD8B20453D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/View Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6D269BB-F866-455E-8CB1-D9F5F1920303"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/View Model/MatchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "callMatchAPI(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7F4229D-5DEF-4C42-B1EA-D44363267329"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/View Model/MatchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "callMatchAPI(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6737DDBD-36BC-44DA-9E6A-3985BB7CEEE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/View Model/MatchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "callMatchAPI(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6737DDBD-36BC-44DA-9E6A-3985BB7CEEE2 - b0bf845136ff7465"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Scoreboard.CustomResult&lt;Scoreboard.Match&gt;) -&gt; () in Scoreboard.MatchViewModel.callMatchAPI(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Scoreboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hemantgore/Desktop/Surjit/Scoreboard/Scoreboard/View%20Model/MatchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "6737DDBD-36BC-44DA-9E6A-3985BB7CEEE2 - b0bf845136ff7465"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Scoreboard.CustomResult&lt;Scoreboard.Match&gt;) -&gt; () in Scoreboard.MatchViewModel.callMatchAPI(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Scoreboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hemantgore/Desktop/Surjit/Scoreboard/Scoreboard/View%20Model/MatchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "6737DDBD-36BC-44DA-9E6A-3985BB7CEEE2 - b0bf845136ff7465"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Scoreboard.CustomResult&lt;Scoreboard.Match&gt;) -&gt; () in Scoreboard.MatchViewModel.callMatchAPI(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Scoreboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hemantgore/Desktop/Surjit/Scoreboard/Scoreboard/View%20Model/MatchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "5040">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF3AA267-CF5C-4CD4-B44B-38D09BC4F9F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/Network/ServiceHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getAPIData(URLString:method:objectType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40A2806B-421A-41A9-8D4A-5F9FB4AC447F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/Network/ServiceHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getAPIData(URLString:method:objectType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B503A982-534E-486C-BA80-A6D29AEACF84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scoreboard/Network/ServiceHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getAPIData(URLString:method:objectType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
