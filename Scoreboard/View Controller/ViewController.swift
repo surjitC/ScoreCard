@@ -30,10 +30,10 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let blurEffect = UIBlurEffect(style: .regular)
-        let blurView = UIVisualEffectView(effect: blurEffect)
-        blurView.frame = view.frame
-        self.view.addSubview(blurView)
+//        let blurEffect = UIBlurEffect(style: .regular)
+//        let blurView = UIVisualEffectView(effect: blurEffect)
+//        blurView.frame = view.frame
+//        self.view.addSubview(blurView)
         view.bringSubviewToFront(tableView)
         view.bringSubviewToFront(teamsSegmentControl)
         view.bringSubviewToFront(teamName)

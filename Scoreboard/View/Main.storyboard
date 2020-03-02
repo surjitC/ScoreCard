@@ -15,6 +15,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8xw-xq-jI4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Khq-4s-NbD">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zrY-6G-hJq">
                                 <rect key="frame" x="12" y="64" width="390" height="45"/>
                                 <constraints>
@@ -309,12 +317,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="8xw-xq-jI4" firstAttribute="leading" secondItem="mrg-ul-OSb" secondAttribute="leading" id="Cvd-dM-x5Z"/>
                             <constraint firstItem="kgt-Qn-xYI" firstAttribute="leading" secondItem="Ieq-dF-4j5" secondAttribute="leading" id="FJz-CZ-RNb"/>
                             <constraint firstItem="zrY-6G-hJq" firstAttribute="leading" secondItem="Ieq-dF-4j5" secondAttribute="leading" constant="12" id="FOk-bA-Onc"/>
                             <constraint firstItem="kgt-Qn-xYI" firstAttribute="top" secondItem="uIB-dL-DgV" secondAttribute="bottom" constant="8" id="JzT-0z-MVO"/>
+                            <constraint firstAttribute="bottom" secondItem="8xw-xq-jI4" secondAttribute="bottom" id="LAb-nB-UtN"/>
                             <constraint firstItem="Ieq-dF-4j5" firstAttribute="trailing" secondItem="zrY-6G-hJq" secondAttribute="trailing" constant="12" id="LEk-FM-kJR"/>
                             <constraint firstItem="Ieq-dF-4j5" firstAttribute="bottom" secondItem="kgt-Qn-xYI" secondAttribute="bottom" id="Z6k-et-wH9"/>
                             <constraint firstItem="uIB-dL-DgV" firstAttribute="leading" secondItem="Ieq-dF-4j5" secondAttribute="leading" constant="16" id="dGW-Pg-vWA"/>
+                            <constraint firstAttribute="trailing" secondItem="8xw-xq-jI4" secondAttribute="trailing" id="nfw-tI-qR7"/>
+                            <constraint firstItem="8xw-xq-jI4" firstAttribute="top" secondItem="mrg-ul-OSb" secondAttribute="top" id="rBP-aU-TYd"/>
                             <constraint firstItem="uIB-dL-DgV" firstAttribute="top" secondItem="zrY-6G-hJq" secondAttribute="bottom" constant="8" id="udI-GM-lsi"/>
                             <constraint firstItem="zrY-6G-hJq" firstAttribute="top" secondItem="Ieq-dF-4j5" secondAttribute="top" constant="20" id="xld-nI-Rue"/>
                             <constraint firstItem="Ieq-dF-4j5" firstAttribute="trailing" secondItem="kgt-Qn-xYI" secondAttribute="trailing" id="zyf-ah-JAG"/>
